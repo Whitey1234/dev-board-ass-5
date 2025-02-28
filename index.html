@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-green-800">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" mx-16 ">
+    <header class="py-7">
+        <nav>
+            <div class="navbar bg-base-100 rounded-3xl py-5">
+                <div class="flex-1">
+                  <a class="btn btn-ghost text-xl"><img src="./A5-Dev-Board/assets/logo.png" alt=""><h1>DevBoard</h1></a>
+                </div>
+                <div class="flex-none">
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <div class=" indicator mr-36">
+                        <!-- img card -->
+                        <img src="./A5-Dev-Board/assets/checkbox.png" alt="">
+                        <h1 class="text-2xl ml-5">23</h1>
+                       
+                      </div>
+                    </div>
+                    <div
+                      tabindex="0"
+                      class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
+                     
+                    </div>
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+                      <div class="w-10">
+                        <img src="./A5-Dev-Board/assets/theme-btn.png" alt="">
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class=" py-14 grid  grid-cols-[70%_30%] gap-10">
+        <div class=" bg-white">
+        <section class="   flex  items-center xy-10 gap-7 py-14 justify-around">
+            <div class=" bg-slate-200 h-36 w-44 flex border rounded-2xl px-6  items-center gap-6   ">
+                 <img src="./A5-Dev-Board/assets/checkbox.png" alt=""> 
+                <div>
+                <h1>Task Assingd</h1>
+                <p id="Assingd">6</p>
+            </div>
+                
+            </div>
+            <div class=" bg-blue-400 h-36 w-80 flex border rounded-2xl px-6  items-center gap-6   ">
+                <img src="./A5-Dev-Board/assets/board.png" alt=""> 
+               <div>
+               <h1>Discover Something New Today!</h1>
+               <p>6</p>
+           </div>
+               
+           </div>
+           <div class=" bg-slate-200 h-36 w-44  flex border rounded-2xl px-6  items-center gap-6   ">
+            <img src="./A5-Dev-Board/assets/calender.png" alt=""> 
+           <div>
+           <h1>Wed ,
+            Jul 28 2025 </h1>
+           
+       </div>
+           
+       </div>
+        </section>
+        <!-- section2 -->
+        <section class="mx-10 mb-7 grid grid-cols-3 grid-rows-2 gap-4">
+            <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Fix Mobile Button Issue </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit1" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Add Dark Mode </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button class="btn bg-blue-500">Completed
+
+                    </button>
+                
+                  </div>
+                </div>
+              </div>
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Optimize  Home page </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Add new emoji 🤲 </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Integrate OpenAI API  </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-16"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Improve Job searching  </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </div>
+        <section class="bg-white pt-9 px-12">
+            <div class="mx-auto ">
+            <div class=" flex gap-2">
+               <img src="./A5-Dev-Board/assets/activity.png" alt=""> 
+               <h1> Activety Log</h1>
+            </div>
+            <button class="btn bg-blue-400 my-6"> Clear History</button>
+        </div>
+        </section>
+    </main>
+    <script src="./js/utilitis.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
