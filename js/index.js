@@ -174,3 +174,25 @@ newElement.textContent += time();
 //newElement.style.color = "red"
  commentDiv.appendChild(newElement)
 })
+
+//History section
+
+document.getElementById("clear-button")
+.addEventListener("click", function(event){
+    //alert();
+    const divClear = document.getElementById("comment");
+    divClear.innerHTML =  " ";
+ document.getElementById("submit1",).disabled =false;
+ document.getElementById("submit2",).disabled =false;
+ document.getElementById("submit3",).disabled =false;
+ document.getElementById("submit4",).disabled =false;
+ document.getElementById("submit4",).disabled =false;
+ document.getElementById("submit6",).disabled =false;
+
+
+
+
+})
+//date time
+const setTime = document.getElementById("dateTime");
+setTime.innerText = date();

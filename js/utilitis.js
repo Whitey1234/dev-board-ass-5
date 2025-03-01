@@ -30,3 +30,18 @@ const seconds = now.getSeconds(); // 0-59
     return  nowTime = `${ hours}:${minutes}:${seconds}`
     //console.log (nowTime)
 }
+
+// date function.....
+
+function date(){
+
+    const now = new Date();
+    const dayName = now.toLocaleString("en-US",{ weekday : "long"})
+    const monthName = now.toLocaleString( "en-US",{month : "long"})
+    
+    const day = now.toLocaleString( "en-US",{day : 'numeric'})
+    const year = now.toLocaleString( "en-US",{year : "numeric"})
+    const banDate = `${dayName}, ${day} ${monthName} ${year}`;
+    return banDate;
+
+}
