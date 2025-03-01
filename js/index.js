@@ -186,7 +186,7 @@ document.getElementById("clear-button")
  document.getElementById("submit2",).disabled =false;
  document.getElementById("submit3",).disabled =false;
  document.getElementById("submit4",).disabled =false;
- document.getElementById("submit4",).disabled =false;
+ document.getElementById("submit5",).disabled =false;
  document.getElementById("submit6",).disabled =false;
 
 
@@ -196,3 +196,4 @@ document.getElementById("clear-button")
 //date time
 const setTime = document.getElementById("dateTime");
 setTime.innerText = date();
+

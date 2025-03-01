@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-green-800">
+<html  lang="en" class="" id="htmlall">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +41,8 @@
                      
                     </div>
                   </div>
-                  <div class="dropdown dropdown-end">
+                  <!--........... them section............. -->
+                  <div id="them" class="dropdown dropdown-end">
                     <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
                       <div class="w-10">
                         <img src="./A5-Dev-Board/assets/theme-btn.png" alt="">
@@ -64,11 +65,11 @@
             </div>
                 
             </div>
-            <div class=" bg-blue-400 h-36 w-80 flex border rounded-2xl px-6  items-center gap-6   ">
+            <div id="blog-page" class=" bg-blue-400 h-36 w-80 flex border rounded-2xl px-6  items-center gap-6   ">
                 <img src="./A5-Dev-Board/assets/board.png" alt=""> 
                <div>
                <h1>Discover Something New Today!</h1>
-               <p>6</p>
+               <p></p>
            </div>
                
            </div>
@@ -194,7 +195,24 @@
         </div>
         </section>
     </main>
+    
+    <script>
+      // set multiple color 
+      document.getElementById("them").addEventListener("click",function(event){
+        
+        
+        const randomColor =`#${Math.floor(Math.random() * 876455986 ).toString(16)  }`;
+       document.getElementById("htmlall").style.backgroundColor = randomColor;
+       
+      })
+
+    //linkup to blog page
+       document.getElementById ("blog-page").addEventListener("click",function(event){
+    document.location.href = "blog.html";
+    })
+    </script>
     <script src="./js/utilitis.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/backHome.js"></script>
 </body>
 </html>
