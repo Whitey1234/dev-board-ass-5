@@ -16,6 +16,7 @@ const now = new Date();
     const year = now.toLocaleString( "en-US",{year : "numeric"})
     const banDate = `${dayName}, ${day} ${monthName} ${year}`;
     console.log (banDate);
+    console.log ("nothing ")
   
 //const now = new Date();
 
