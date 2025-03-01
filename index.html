@@ -6,6 +6,15 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .comment-background{ background-color: rgb(147, 147, 230);
+    padding: 5px;
+    
+  border-radius: 10%;
+  margin-top: 10px;
+
+  }
+</style>
 
 </head>
 <body class=" mx-16 ">
@@ -21,7 +30,8 @@
                       <div class=" indicator mr-36">
                         <!-- img card -->
                         <img src="./A5-Dev-Board/assets/checkbox.png" alt="">
-                        <h1 class="text-2xl ml-5">23</h1>
+                        <!-- ........... point  section.......... -->
+                        <h1 id="point" class="text-2xl ml-5">23</h1>
                        
                       </div>
                     </div>
@@ -72,7 +82,7 @@
            
        </div>
         </section>
-        <!-- section2 -->
+        <!-- section2 submit -->
         <section class="mx-10 mb-7 grid grid-cols-3 grid-rows-2 gap-4">
             <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
                 <div class="card-body">
@@ -100,7 +110,7 @@
                         <p class=" text-black font-thin"> deadline</p>
                         <p class=" text-black font-medium">21 March 2025</p>
                     </div>
-                    <button class="btn bg-blue-500">Completed
+                    <button id="submit2" class="btn bg-blue-500">Completed
 
                     </button>
                 
@@ -118,7 +128,7 @@
                         <p class=" text-black font-thin"> deadline</p>
                         <p class=" text-black font-medium">21 March 2025</p>
                     </div>
-                    <button class="btn bg-blue-500">Completed</button>
+                    <button id="submit3" class="btn bg-blue-500">Completed</button>
                   </div>
                 </div>
               </div>
@@ -133,7 +143,7 @@
                         <p class=" text-black font-thin"> deadline</p>
                         <p class=" text-black font-medium">21 March 2025</p>
                     </div>
-                    <button class="btn bg-blue-500">Completed</button>
+                    <button id="submit4" class="btn bg-blue-500">Completed</button>
                   </div>
                 </div>
               </div>
@@ -148,7 +158,7 @@
                         <p class=" text-black font-thin"> deadline</p>
                         <p class=" text-black font-medium">21 March 2025</p>
                     </div>
-                    <button class="btn bg-blue-500">Completed</button>
+                    <button id="submit5" class="btn bg-blue-500">Completed</button>
                   </div>
                 </div>
               </div>
@@ -163,19 +173,25 @@
                         <p class=" text-black font-thin"> deadline</p>
                         <p class=" text-black font-medium">21 March 2025</p>
                     </div>
-                    <button class="btn bg-blue-500">Completed</button>
+                    <button id="submit6" class="btn bg-blue-500">Completed</button>
                   </div>
                 </div>
               </div>
         </section>
     </div>
+    <!-- ................section2 ...........-->
+
         <section class="bg-white pt-9 px-12">
             <div class="mx-auto ">
             <div class=" flex gap-2">
                <img src="./A5-Dev-Board/assets/activity.png" alt=""> 
                <h1> Activety Log</h1>
-            </div>
+            </div >
             <button class="btn bg-blue-400 my-6"> Clear History</button>
+            <div id="comment">
+
+            </div>
+
         </div>
         </section>
     </main>
