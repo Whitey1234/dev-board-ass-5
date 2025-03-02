@@ -182,12 +182,12 @@ document.getElementById("clear-button")
     //alert();
     const divClear = document.getElementById("comment");
     divClear.innerHTML =  " ";
- document.getElementById("submit1",).disabled =false;
- document.getElementById("submit2",).disabled =false;
- document.getElementById("submit3",).disabled =false;
- document.getElementById("submit4",).disabled =false;
- document.getElementById("submit5",).disabled =false;
- document.getElementById("submit6",).disabled =false;
+//  document.getElementById("submit1",).disabled =false;
+//  document.getElementById("submit2",).disabled =false;
+//  document.getElementById("submit3",).disabled =false;
+//  document.getElementById("submit4",).disabled =false;
+//  document.getElementById("submit5",).disabled =false;
+//  document.getElementById("submit6",).disabled =false;
 
 
 
